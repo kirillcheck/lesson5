@@ -18,9 +18,6 @@ menu.insertBefore(li2, menuItem[1]);
 // изменение меню
 
 
-// изменение фона
-document.body.style.background = 'url(../img/apple_true.jpg)';
-// изменение фона
 
 // изменение title
 title[0].textContent = 'Мы продаем только подлинную технику Apple';
@@ -51,3 +48,7 @@ function request() {
 setTimeout(request, 2000);
 
 // запрос клиенту
+
+// изменение фона
+document.body.style.background = 'url(img/apple_true.jpg)';
+// изменение фона

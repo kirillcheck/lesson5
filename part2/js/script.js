@@ -8,7 +8,7 @@ let button = document.getElementById('start'),
     monthSavingsValue = document.getElementsByClassName('monthsavings-value')[0],
     yearSavingsValue = document.getElementsByClassName('yearsavings-value')[0],
 
-    
+
     expensesInput = document.getElementsByClassName('expenses-item'),
     buttonApprove = document.getElementsByTagName('button')[0],
     optionalExpensesButton = document.getElementsByTagName('button')[1],
@@ -21,3 +21,6 @@ let button = document.getElementById('start'),
     sum = document.querySelector('.choose-sum'),
     percent = document.querySelector('.choose-percent'),
     checkBox = document.querySelector('#savings');
+
+
+    
